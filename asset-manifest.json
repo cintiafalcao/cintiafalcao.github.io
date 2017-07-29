@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.b602b3c5.css",
   "main.css.map": "static/css/main.b602b3c5.css.map",
-  "main.js": "static/js/main.ef261c24.js",
-  "main.js.map": "static/js/main.ef261c24.js.map",
+  "main.js": "static/js/main.13b31d2b.js",
+  "main.js.map": "static/js/main.13b31d2b.js.map",
   "static/media/abcd.jpg": "static/media/abcd.3e8d09cb.jpg",
   "static/media/adv_diego.jpg": "static/media/adv_diego.2341dd4c.jpg",
   "static/media/aline.jpg": "static/media/aline.7efa6435.jpg",
@@ -38,6 +38,7 @@
   "static/media/paleta.png": "static/media/paleta.e80a71fe.png",
   "static/media/pedrasul.jpg": "static/media/pedrasul.2b8d0e8a.jpg",
   "static/media/penacova.jpg": "static/media/penacova.69f64dbc.jpg",
+  "static/media/play.jpg": "static/media/play.48923314.jpg",
   "static/media/polvo_01.mp4": "static/media/polvo_01.2d56c936.mp4",
   "static/media/polvo_02.mp4": "static/media/polvo_02.6b24acc5.mp4",
   "static/media/polvo_03.mp4": "static/media/polvo_03.988e3cdd.mp4",
