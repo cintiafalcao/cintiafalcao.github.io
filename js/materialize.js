@@ -4942,7 +4942,7 @@ if (Vel) {
       var dropdownIcon = $('<span class="caret">&#9660;</span>');
 
       // escape double quotes
-      var sanitizedLabelHtml = label.replace(/"/g, '&quot;');
+      var sanitizedLabelHtml = label.replace(/"/g, '&quot;;');
 
       var $newSelect = $('<input type="text" class="select-dropdown" readonly="true" ' + ($select.is(':disabled') ? 'disabled' : '') + ' data-activates="select-options-' + uniqueID + '" value="' + sanitizedLabelHtml + '"/>');
       $select.before($newSelect);
