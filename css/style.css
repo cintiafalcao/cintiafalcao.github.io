@@ -6,6 +6,45 @@
  * Made By MaterializeCSS.com
  */
 
+@font-face {
+    font-family: 'Apercu';
+    src: local('Apercu  Regular'), local('Apercu--Regular'),
+        url('../fonts/apercu/ApercuPro.woff2') format('woff2'),
+        url('../fonts/apercu/ApercuPro.woff') format('woff'),
+        url('../fonts/apercu/ApercuPro.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: local('Apercu  Light'), local('Apercu--Light'),
+        url('../fonts/apercu/Apercu-Light.woff2') format('woff2'),
+        url('../fonts/apercu/Apercu-Light.woff') format('woff'),
+        url('../fonts/apercu/Apercu-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apercu';
+    src: local('Apercu  Bold'), local('Apercu--Bold'),
+        url('../fonts/apercu/ApercuPro-Bold.woff2') format('woff2'),
+        url('../fonts/apercu/ApercuPro-Bold.woff') format('woff'),
+        url('../fonts/apercu/ApercuPro-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Apercu';
+    src: local('Apercu  Medium'), local('Apercu--Medium'),
+        url('../fonts/apercu/ApercuPro-Medium.woff2') format('woff2'),
+        url('../fonts/apercu/ApercuPro-Medium.woff') format('woff'),
+        url('../fonts/apercu/ApercuPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -18,18 +57,25 @@ a {
 }
 
 p {
-  line-height: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  font-weight: 300;
 }
 
 html {
   line-height: 1.5;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Apercu', 'apple-system';
   font-weight: 300;
-  color: rgba(0, 0, 0, 0.87);
+  color: #444;
+}
+
+a {
+  font-weight: 400;
+  color: #444;
 }
 
 h4, h5, h6 {
-  font-weight: 300;
+  font-weight: 500;
   line-height: 1.1;
 }
 
@@ -37,9 +83,22 @@ h6 {
   color: #ff811a;
 }
 
+h1 {
+
+    font-size: 6rem;
+    letter-spacing: -2px;
+}
+
 h1, h2, h3 {
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   line-height: 1.1;
+  background: -webkit-linear-gradient(95deg, rgba(37,28,80,1) 44%, rgba(255,129,26,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h3 {
+  font-weight: 300 !important;
 }
 
 h2.text-img, h4.text-img {
@@ -58,12 +117,16 @@ b {
 
 ul.list-desc {
   padding-left: 15px;
-  list-style: square inside none;
+  list-style: disc inside;
+  font-size: 1.1rem;
+  line-height: 140%;
 }
 
 ul.list-desc > li {
-  list-style: square inside none;
-  line-height: 1.8rem;
+  list-style: disc inside;
+  line-height: 1.8rem;  
+  font-size: 1.1rem;
+  line-height: 140%;
 
 }
 
@@ -95,8 +158,8 @@ img.margin-top-img{
   display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(51, 51, 51, 0.08);
@@ -141,20 +204,23 @@ img.margin-top-img{
   font-size: 16px;
   color: rgba(0, 0, 0, 0.87);
   display: block;
-  line-height: 16px;
-  padding: 14px 16px;
+  line-height: 20px;
+  padding: 2px 16px;
 }
+
+.dropdown-content li > a:hover {
+    background-color: transparent !important;
+}
+
 .sub-menu-mobile li > a {
-    color: rgba(0, 0, 0, 0.87);
+    background-color: transparent !important;
     display: block;
     font-size: 14px;
-    font-weight: 500;
     height: 28px;
     line-height: 28px;
     padding: 0 42px;
     text-transform: capitalize;
 }
-
 
 .side-nav li, .right li > a  {
   position: relative;
@@ -172,6 +238,29 @@ img.margin-top-img{
   color: #ff811a;
 }
 
+.nav-wrapper li > a {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+}
+
+.nav-wrapper li > a:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: rgba(255, 129, 26, 0.3);
+  color: #ff811a;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+}
+
 nav ul li.active {
   background-color: transparent !important;
   color: #ff811a;
@@ -185,13 +274,15 @@ nav ul a {
 }
 
 nav ul a:hover {
-  background-color: transparent !important;
   color: #ff811a;
 }
 
 nav.white {
   position: fixed;
   z-index: 998;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 @media only screen and (min-width: 993px) {
@@ -215,7 +306,7 @@ a.link_footer:active {
 
 i.color {
   color: #32255e;
-  vertical-align: text-top;
+  //vertical-align: text-top;
 }
 
 i.icon-btn {
@@ -223,14 +314,14 @@ i.icon-btn {
 }
 
 .center-img {
-  width: 530px;
+  margin: 5px 210px;
 }
 
 .btn-flat {
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: transparent;
-  color: #32255e;
+  color: #ff811a;
   cursor: pointer;
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
@@ -238,13 +329,14 @@ i.icon-btn {
 
 .btn-flat:focus, .btn-flat:hover {
   -webkit-box-shadow: none;
-          box-shadow: none;
-          color: #ff811a;
+  box-shadow: none;
+  background-color: rgba(255, 129, 26, 0.3);
+  color: #ff811a;
 }
 
 .btn-flat:focus {
-  background-color: rgba(0, 0, 0, 0.1);
-  color: #32255e;
+  background-color: rgba(255, 129, 26, 0.3);
+  color: #ff811a;
 }
 
 .btn-flat.disabled {
@@ -256,7 +348,7 @@ i.icon-btn {
 .btn, .btn-large,
 .btn-flat {
   border: none;
-  border-radius: 2px;
+  border-radius: 4px;
   display: inline-block;
   height: 36px;
   line-height: 36px;
@@ -265,7 +357,6 @@ i.icon-btn {
   vertical-align: middle;
   -webkit-tap-highlight-color: transparent;
 
-  border: 1px dotted #32255e;
 }
 
 .button-collapse {
@@ -274,7 +365,7 @@ i.icon-btn {
 
 .parallax-container {
   color: #fff;
-  min-height: 400px;
+  min-height: 600px;
   line-height: 0;
   height: auto;
   
@@ -289,17 +380,13 @@ i.icon-btn {
   color: #fff;
 }
 
-#who .section {
-  background: rgb(37,28,80);
-  background: linear-gradient(160deg, rgba(37,28,80,1) 44%, rgba(255,129,26,1) 100%);
-  }
-
 .parallax-container .section {
     width: 100%;
 }
 
 .fixed-height{
-  min-height: 480px;
+  padding-top: 90px;
+  min-height: none !important;
 }
 
 .margin-top {
@@ -308,6 +395,8 @@ i.icon-btn {
 
 .logo {
 margin-top: 15px;
+width: 34px;
+height: 34px;
 
 }
 
@@ -317,6 +406,8 @@ margin-top: 15px;
 
 .purple-text.text-darken-5 {
   color: #251C50 !important;
+  font-size: 2.1rem;
+  line-height: 100%;
 }
 
 .teal {
@@ -354,3 +445,29 @@ margin-top: 15px;
 footer.page-footer {
   margin: 0;
 }
+
+.container.ligth-bg {
+  background-color: rgba(8, 0, 206, 0.05);
+} 
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10%;
+}
+.row.about {
+  margin-bottom: 2%;
+}
+
+.arrow i {
+
+  margin-top: -13px;
+
+}
+
+.desc-block p {
+  font-size: 1.6rem;
+  width: 70%;
+  margin: 20px auto;
+}
+
