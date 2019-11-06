@@ -314,7 +314,7 @@ i.icon-btn {
 }
 
 .center-img {
-  margin: 5px 210px;
+  margin: 5px 186px;
 }
 
 .btn-flat {
@@ -469,5 +469,9 @@ footer.page-footer {
   font-size: 1.6rem;
   width: 70%;
   margin: 20px auto;
+}
+
+.desc-block p.first {
+  margin-left: 0 !important;
 }
 
