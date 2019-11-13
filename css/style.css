@@ -464,6 +464,10 @@ footer.page-footer {
   margin-bottom: 2%;
 }
 
+#contact .row {
+  margin-bottom: 2% !important; 
+}
+
 .arrow i {
 
   margin-top: -13px;
