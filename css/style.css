@@ -85,8 +85,11 @@ h6 {
 
 h1 {
 
-    font-size: 6rem;
-    letter-spacing: -2px;
+  font-size: 6rem;
+  letter-spacing: -2px;
+  background: -webkit-linear-gradient(95deg, rgba(37,28,80,1) 44%, rgba(255,129,26,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h1, h2, h3 {
@@ -96,10 +99,9 @@ h1, h2, h3 {
 
 .listColor h1, .listColor h2, .listColor h3 {
   font-weight: 700 !important;
-  line-height: 1.1;
-  background: -webkit-linear-gradient(95deg, rgba(37,28,80,1) 44%, rgba(255,129,26,1) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  line-height: 1.1; 
+  color: #251C50 !important;
+  
 }
 
 h3 {
