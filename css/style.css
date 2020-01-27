@@ -85,9 +85,9 @@ h6 {
 
 h1 {
 
-  font-size: 6rem;
+  font-size: 4rem;
   letter-spacing: -2px;
-  background: -webkit-linear-gradient(95deg, rgba(37,28,80,1) 44%, rgba(255,129,26,1) 100%);
+  background: -webkit-linear-gradient(100deg, rgba(37,28,80,1) 44%, rgba(255,129,26,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
