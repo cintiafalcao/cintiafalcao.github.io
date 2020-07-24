@@ -165,8 +165,13 @@ img.margin-top-img{
     border-bottom: 1px solid rgba(37, 28, 80, 0.1);
 }
 
-.about { margin: 56px 56px;
+.photo-about div {
+  align-self: center;
+  padding-top: 20px;
 
+}
+.tit-short {
+  width: 70%;
 }
 
 .case-footer {
