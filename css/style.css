@@ -84,7 +84,7 @@ h6 {
 }
 
 h1 {  
-  font-size: 3.5rem;
+  font-size: 3.4rem;
   letter-spacing: -2px;
   line-height: 1.1;
   color: #251C50 !important;
@@ -92,7 +92,7 @@ h1 {
 }
 
 h1 span {
-  font-size: 4rem;
+  font-size: 3.8rem;
   color: #4C4289 !important;
 }
 
@@ -488,6 +488,10 @@ footer.page-footer {
 }
 .row.about {
   margin-bottom: 2%;
+}
+
+.row.about p {
+  font-size: 1.4rem;
 }
 
 #contact .row {
