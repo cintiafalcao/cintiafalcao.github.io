@@ -514,3 +514,8 @@ footer.page-footer {
   margin-left: 0 !important;
 }
 
+.contact-icons svg {
+  display: inline-block;
+  margin-right: 1.5em;
+}
+
