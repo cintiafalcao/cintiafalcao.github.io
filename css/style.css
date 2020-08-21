@@ -191,13 +191,16 @@ img.margin-top-img{
   color:#5F56AC;
 }
 
-.case-footer {
+/*.case-footer {
   color: #fff;
   background-color: #ff811a;
-}
+}*/
 
-.footer-copyright {
- }
+.page-footer .footer-copyright {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+  color: rgba(255, 255, 255, 1) !important;
+
+}
   
 .case-footer .footer-copyright {
   overflow: hidden;
@@ -211,8 +214,8 @@ img.margin-top-img{
   -ms-flex-align: center;
   align-items: center;
   padding: 10px 0px;
-  color: rgba(255, 255, 255, 0.8);
-  background-color: rgba(51, 51, 51, 0.08);
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .dropdown-content {
@@ -489,6 +492,13 @@ i.icon-btn {
   color: #ff811a !important;
 }
 
+.home-teal {
+  background-color: #DFDCEF;
+}
+
+.home-teal div {
+  color: #4C4289;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
