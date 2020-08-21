@@ -186,11 +186,19 @@ img.margin-top-img{
 .third-color {
   color:#FF811A;
 }
+
+.fourth-color {
+  color:#5F56AC;
+}
+
 .case-footer {
   color: #fff;
   background-color: #ff811a;
 }
 
+.footer-copyright {
+ }
+  
 .case-footer .footer-copyright {
   overflow: hidden;
   min-height: 50px;
