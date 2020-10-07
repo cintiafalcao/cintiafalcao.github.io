@@ -45,6 +45,57 @@
     font-style: normal;
 }
 
+@import url("https://p.typekit.net/p.css?s=1&k=jdq5hay&ht=tk&f=7180.7181.7182.7183.22749.22750.22751.22753&a=13133124&app=typekit&e=css");
+
+@font-face {
+font-family:"adobe-clean";
+src:url("https://use.typekit.net/af/cb695f/000000000000000000017701/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/cb695f/000000000000000000017701/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/cb695f/000000000000000000017701/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"adobe-clean";
+src:url("https://use.typekit.net/af/74ffb1/000000000000000000017702/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/74ffb1/000000000000000000017702/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/74ffb1/000000000000000000017702/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"adobe-clean";
+src:url("https://use.typekit.net/af/eaf09c/000000000000000000017703/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/eaf09c/000000000000000000017703/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/eaf09c/000000000000000000017703/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"adobe-clean";
+src:url("https://use.typekit.net/af/a9f5e6/000000000000000000017708/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/a9f5e6/000000000000000000017708/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/a9f5e6/000000000000000000017708/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"adobe-clean-serif";
+src:url("https://use.typekit.net/af/0dddd1/00000000000000003b9aee48/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/0dddd1/00000000000000003b9aee48/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/0dddd1/00000000000000003b9aee48/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"adobe-clean-serif";
+src:url("https://use.typekit.net/af/634d69/00000000000000003b9aee46/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/634d69/00000000000000003b9aee46/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/634d69/00000000000000003b9aee46/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"adobe-clean-serif";
+src:url("https://use.typekit.net/af/507e89/00000000000000003b9aee49/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/507e89/00000000000000003b9aee49/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/507e89/00000000000000003b9aee49/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"adobe-clean-serif";
+src:url("https://use.typekit.net/af/e09494/00000000000000003b9aee45/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/e09494/00000000000000003b9aee45/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/e09494/00000000000000003b9aee45/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -57,14 +108,14 @@ a {
 }
 
 p {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   line-height: 1.5;
   font-weight: 300;
 }
 
 html {
   line-height: 1.5;
-  font-family: 'Apercu', 'apple-system';
+  font-family: 'adobe-clean', 'apple-system';
   font-weight: 300;
   color: #444;
 }
@@ -79,20 +130,21 @@ h4, h6 {
   line-height: 1.1;
 }
 
+
 h6 {
   color: #ff811a;
 }
 
 h1 {  
+  font-family: 'adobe-clean-serif';
   font-size: 3.4rem;
-  letter-spacing: -2px;
+  /*letter-spacing: -1px;*/
   line-height: 1.1;
   color: #251C50 !important;
   font-weight: 700 !important;  
 }
 
 h1 span {
-  font-size: 3.8rem;
   color: #4C4289 !important;
 }
 
@@ -101,6 +153,8 @@ h1 b {
 }
 
 h2 {
+
+  font-family: 'adobe-clean-serif';
   font-weight: 700 !important;  
   color: #212121 !important;
 }
@@ -110,6 +164,10 @@ h2 {
   line-height: 1.1; 
   color: #251C50 !important;
   
+}
+
+.darkBg {
+  background-color: #000 !important;
 }
 
 h3 {
