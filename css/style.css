@@ -113,6 +113,10 @@ p {
   font-weight: 300;
 }
 
+html, body {
+  height: 100%;
+}
+
 html {
   line-height: 1.5;
   font-family: 'adobe-clean', 'apple-system';
@@ -137,7 +141,7 @@ h6 {
 
 h1 {  
   font-family: 'adobe-clean-serif';
-  font-size: 3.4rem;
+  font-size: 3.6rem;
   /*letter-spacing: -1px;*/
   line-height: 1.1;
   color: #251C50 !important;
@@ -220,8 +224,30 @@ img.margin-top-img{
 }
 
 .bg-about {
-  background: rgba(76, 66, 137, 0.05);
+
+  padding-top: 56px;
   margin-bottom: 5rem;
+  background: linear-gradient(-45deg, #FDE2CE, #FEE3EB, #E0E0FC, #F6F5F9, #FFF);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  min-height: 100%;
+  height: auto !important;
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .separator {
