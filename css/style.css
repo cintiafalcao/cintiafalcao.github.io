@@ -110,7 +110,7 @@ a {
 p {
   font-size: 1.2rem;
   line-height: 1.5;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 html, body {
@@ -120,7 +120,7 @@ html, body {
 html {
   line-height: 1.5;
   font-family: 'adobe-clean', 'apple-system';
-  font-weight: 300;
+  font-weight: 400;
   color: #444;
 }
 
@@ -636,6 +636,20 @@ footer.page-footer {
 
   margin-top: -13px;
 
+}
+
+.row-bgcolor-dark {
+  background-color: #232526;
+}
+
+.row-bgcolor-dark h2 {
+  color: #F4F4F4 !important;
+}
+.row-bgcolor-dark p {
+  color: #F4F4F4;
+  font-size: 1.4rem;
+  width: 70%;
+  margin: 20px auto;
 }
 
 .desc-block p {
