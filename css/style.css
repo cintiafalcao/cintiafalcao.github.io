@@ -6,46 +6,20 @@
  * Made By MaterializeCSS.com
  */
 
+
+
+
+
 @font-face {
-    font-family: 'Apercu';
-    src: local('Apercu  Regular'), local('Apercu--Regular'),
-        url('../fonts/apercu/ApercuPro.woff2') format('woff2'),
-        url('../fonts/apercu/ApercuPro.woff') format('woff'),
-        url('../fonts/apercu/ApercuPro.ttf') format('truetype');
+    font-family: 'AdobeCleanLight';
+    src:url('../fonts/AdobeClean/AdobeClean-Light.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Apercu';
-    src: local('Apercu  Light'), local('Apercu--Light'),
-        url('../fonts/apercu/Apercu-Light.woff2') format('woff2'),
-        url('../fonts/apercu/Apercu-Light.woff') format('woff'),
-        url('../fonts/apercu/Apercu-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Apercu';
-    src: local('Apercu  Bold'), local('Apercu--Bold'),
-        url('../fonts/apercu/ApercuPro-Bold.woff2') format('woff2'),
-        url('../fonts/apercu/ApercuPro-Bold.woff') format('woff'),
-        url('../fonts/apercu/ApercuPro-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Apercu';
-    src: local('Apercu  Medium'), local('Apercu--Medium'),
-        url('../fonts/apercu/ApercuPro-Medium.woff2') format('woff2'),
-        url('../fonts/apercu/ApercuPro-Medium.woff') format('woff'),
-        url('../fonts/apercu/ApercuPro-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
 
 @import url("https://p.typekit.net/p.css?s=1&k=jdq5hay&ht=tk&f=7180.7181.7182.7183.22749.22750.22751.22753&a=13133124&app=typekit&e=css");
+
 
 @font-face {
 font-family:"adobe-clean";
@@ -96,6 +70,7 @@ font-display:auto;font-style:normal;font-weight:400;
 }
 
 
+
 nav ul a,
 nav .brand-logo {
   color: #444;
@@ -108,9 +83,11 @@ a {
 }
 
 p {
+
+  font-family: 'AdobeCleanLight', 'apple-system';
   font-size: 1.2rem;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 html, body {
@@ -118,10 +95,15 @@ html, body {
 }
 
 html {
-  line-height: 1.5;
-  font-family: 'adobe-clean', 'apple-system';
+  line-height: 1.2;
+  font-family: 'AdobeCleanLight', 'apple-system';
   font-weight: 400;
   color: #444;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: 'adobe-clean', 'apple-system';
+  font-weight: 400;
 }
 
 a {
@@ -525,7 +507,7 @@ i.icon-btn {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 600px;
+  height: 500px;
 }
 
 .parallax-container .parallax {
@@ -648,6 +630,7 @@ footer.page-footer {
 
 .row.about p {
   font-size: 1.4rem;
+  width: 95%;
 }
 
 #contact .row {
@@ -675,12 +658,14 @@ footer.page-footer {
 }
 
 .desc-block {
-  width: 70%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .desc-block p {
-  font-size: 1.6rem;
+  width: 85%;
+  font-size: 1.4rem;
+  margin: 20px auto !important;
 }
 
 .desc-block h5 {
@@ -688,15 +673,15 @@ footer.page-footer {
   font-weight: 700;
 }
 
-.desc-block p.first {
-  margin-left: 0 !important;
-}
+
 
 .dates-small {
   font-size: 1rem;
 }
 
 .work-exp p {
+
+  width: 85%;
   margin: 0 !important;
   padding: 0 !important;
 }
