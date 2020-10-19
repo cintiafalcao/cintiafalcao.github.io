@@ -126,12 +126,12 @@ h1 {
   font-size: 3.6rem;
   /*letter-spacing: -1px;*/
   line-height: 1.1;
-  color: #251C50 !important;
+  color: #5F56AC !important;
   font-weight: 700 !important;  
 }
 
 h1 span {
-  color: #4C4289 !important;
+  color: rgba(225, 225, 255, 0.9) !important;
 }
 
 h1 b {
@@ -142,6 +142,15 @@ h2 {
   font-family: 'adobe-clean-serif';
   font-weight: 700 !important;  
   color: #212121 !important;
+}
+
+.about p {
+
+  color: rgba(225, 225, 255, 0.9) !important;
+}
+
+.listColor{
+  padding-top: 40px;
 }
 
 .listColor h1, .listColor h2, .listColor h3 {
@@ -204,13 +213,24 @@ img.margin-top-img{
     margin-top: 20px;
 }
 
+div.arrow {
+  position: absolute;
+  bottom: : 10px;
+  right: 50%; 
+  width: 40px;
+  height: 40px;
+}
+
 .bg-about {
+  background-color: #251C50;
 
   padding-top: 56px;
   margin-bottom: 5rem;
-  background: linear-gradient(-45deg, #E0E0FC, #F6F5F9, #FFF);
+
+/*  background: linear-gradient(-45deg, #4C4289, #251C50);
   background-size: 400% 400%;
-  animation: gradient 15s ease infinite;
+  animation: gradient 15s ease infinite;*/
+
   min-height: 100%;
   height: auto !important;
   display: flex;
