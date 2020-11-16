@@ -221,6 +221,29 @@ div.arrow {
   height: 40px;
 }
 
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+  
+  flex-flow: row wrap;
+  
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.flex-item {
+  padding: 1%;
+  width: 375px;
+  height: 667px;
+  margin-top: 5%;
+}
+
+
 .bg-about {
   background-color: #251C50;
 
