@@ -243,6 +243,12 @@ div.arrow {
   margin-top: 5%;
 }
 
+.flex-item img {
+
+  box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.07), 0 12px 40px 0 rgba(0, 0, 0, 0.05);
+}
+
+
 
 .bg-about {
   background-color: #251C50;
