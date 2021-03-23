@@ -139,9 +139,10 @@ h1 b {
 }
 
 h2 {
-  font-family: 'adobe-clean-serif';
-  font-weight: 700 !important;  
-  color: #212121 !important;
+  font-family: 'adobe-clean', 'apple-system';
+  font-weight: 700;
+  font-size: 2rem;
+  color: #251C50 !important;
 }
 
 .about p {
@@ -201,6 +202,12 @@ ul.list-desc > li {
   line-height: 1.8rem;  
   font-size: 1.1rem;
   line-height: 140%;
+
+}
+
+ul.list-desc-inter > li {
+  list-style: disc inside;
+
 
 }
 
@@ -672,7 +679,7 @@ footer.page-footer {
 .row {
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 10%;
+  margin-bottom: 4%;
 }
 .row.about {
   margin-bottom: 2%;
@@ -724,6 +731,40 @@ footer.page-footer {
 }
 
 
+.desc-block-inter a:link {
+  text-decoration: none;
+  color: #5F56AC;
+}
+
+.desc-block-inter a:visited {
+  text-decoration: none;
+  color: #5F56AC;
+}
+
+.desc-block-inter a:hover {
+  text-decoration: underline;
+  color: #5F56AC;
+}
+
+.desc-block-inter a:active {
+  text-decoration: underline;
+  color: #5F56AC;
+}
+
+
+.desc-block-inter p, .desc-block-inter h5, .desc-block-inter ul, .desc-block-inter h2 {
+  width: 85%;
+  margin: 20px auto !important;
+}
+
+.desc-block-inter ul.flex-container {
+  width: 100%;
+  margin: 0;
+}
+
+.desc-block-inter p, .desc-block-inter li {
+  font-size: 1.4rem;
+}
 
 .dates-small {
   font-size: 1rem;
